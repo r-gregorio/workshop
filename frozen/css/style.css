@@ -14,6 +14,7 @@ body {
 
 p {
 	margin-bottom: 1em;
+    color: #fff;
 }
 
 a,
@@ -85,19 +86,13 @@ img {
 	}
 }
 
-/* Sections
--------------------------------------------------- */
-.section {
-	padding: 32px 0 0;
-}
-
-
 /* Titles
 -------------------------------------------------- */
 .title-style--1 {
-	font-size: 32px;
+	font-size: 52px;
 	line-height: 1.5;
 	font-weight: bold;
+    color: #fff;
 }
 
 .title-style--2 {
@@ -106,10 +101,68 @@ img {
 	font-weight: bold;
 }
 
+/* Buttons
+-------------------------------------------------- */
+.button-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.button-container-2 {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+.button {
+	background-color: #333;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	width: 384px;
+	border: 0;
+	padding: 11px 12px;
+}
+
+
+/* boxes and container
+-------------------------------------------------- */
+
+.box__container {
+    font-size: 18px;
+    background: #ccc;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	line-height: 1;
+    position: relative; 
+}
+
+/* FLEXBOX
+-------------------------------------------------- */
+
+.flex__item {
+    width: 100%;
+}
+  
+.flex__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 15px 20px;
+    text-align: justify;
+}
+  
+.flex__container > div {
+    flex: 50%; 
+    margin-bottom: 10px;
+}
+
 /* keyvisual section start
 -------------------------------------------------- */
 
-.keyvisual {
+.keyvisual__section {
     background: url('/frozen/images/img_keyvisual_bg.png') top no-repeat;
     text-align: center;
 	margin: 0 auto;
@@ -118,13 +171,14 @@ img {
 	padding: 20px 10px 0px;
 }
 
-.keyvisual .content {
+.keyvisual__section .content {
 	text-align: center;
 }
 
-.keyvisual__ticket .image {
+.keyvisual__container .image {
 	margin-top: 20px;
 	margin-bottom: 20px;
+    padding: 20px 30px;
 }
 
 .keyvisual__container {
@@ -136,6 +190,47 @@ img {
     .keyvisual__container .image {
         width: 50%;
     }
+}
+
+
+/* OVERVIEW SECTION START
+-------------------------------------------------- */
+.overview__section {
+	padding: 50px 0 20px;
+    background: #001f4f;
+    text-align: center;
+}
+
+/* VIDEO SECTION START
+-------------------------------------------------- */
+.video__section {
+	padding: 50px 0 20px;
+    background: #000;
+    text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+	.video--container iframe {
+		width: 97%;
+		height: 200px;
+	}
+}
+
+/* INTRODUCTION SECTION START
+-------------------------------------------------- */
+
+.introduction__section {
+    background: url('/frozen/images/img_background_1.png') top no-repeat;
+    text-align: center;
+	margin: 0 auto;
+	max-width: auto;
+	background-size: cover;
+	padding: 50px 10px 0px;
+}
+
+.introduction__section .container {
+    text-align: justify;
+    padding: 20px 40px 30px;
 }
 
 /* ALIGNMENTS
