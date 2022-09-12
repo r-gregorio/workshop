@@ -45,9 +45,9 @@
 
             <section id="overview_section" class="overview__section">
                 <h2 class="title-style--1">公演概要</h2>
-                <p>Overview</p>
-                <div class="container">
-                    <div class="box__container">
+                <p class="title-style--2">Overview</p>
+                <div class="container flex--centered">
+                    <div class="octagon__box">
                         <div class="flex__container">
                             <div class="flex__item">公演期間</div>
                             <div class="flex__item">2020年9月10日(木)開幕～ロングラン上演</div>
@@ -80,18 +80,45 @@
 
             <section id="introduction_section" class="introduction__section">
                 <h2 class="title-style--1">はじめに</h2>
-                <p>INTRODUCTION</p>
+                <p class="title-style--2">INTRODUCTION</p>
                 <div class="container">
-                    <div>
-                        <p>国内史上最も愛されたウォルト・ディズニー・アニメーション・スタジオ映画がついに舞台化！真実の愛によって解き放たれる二人の姉妹の物語</p>
+                    <div class="content">
+                        <p class="title-style--3">国内史上最も愛されたウォルト・ディズニー・アニメーション・スタジオ映画がついに舞台化！真実の愛によって解き放たれる二人の姉妹の物語</p>
                     </div>
-                    <div>
+                    <div class="content">
                         <p>2020年9月、東京・竹芝エリアに誕生する新劇場・JR東日本四季劇場［春］。このオープニング作品として、ディズニー最新ミュージカル『アナと雪の女王』を上演いたします。2013年公開の劇場版長編アニメーションを基に創作されたこの作品は、2018年3月、ブロードウェイ初演。全世界のアニメーション映画興行収入歴代1位の記録を持つ名作の舞台化は、開幕するやいなや世界中で話題をさらいました。</p>
                     </div>
                     <div class="button-container">
                         <button class="button">もっと読む</button>
                     </div>
                 </div>
+            </section>
+
+            <section id="story_section" class="story__section">
+                <h2 class="title-style--1">ストーリー</h2>
+                <p class="title-style--2">STORY</p>
+                <div class="container">
+                    <div class="content">
+                        <p class="title-style--3">凍った心をとかす“真実の愛”とは―<br>
+                            望まない魔法の力をもった姉と、その姉を慕う妹の冒険が始まる。
+                        </p>
+                    </div>
+                    <div class="content">
+                        <p>アレンデール王国の幼い王女、エルサとアナはとても仲の良い姉妹。氷を操る魔法の力をもつ姉のエルサは、ある夜、誤って妹のアナに魔法を当ててしまう。氷のように冷たくなったアナを助けるため、王妃は「ヒドゥン・フォーク山の隠された民」を呼び寄せると、彼らの長パビーはアナにかけられた魔法を取り除いてくれた。自分の魔法の力も消してほしいと頼むエルサにパビーは、その力はエルサの一部であることを告げる。</p>
+                        <span id="dots"></span>
+                        <span id="more" class="button--more">
+                            <p>王と王妃は、エルサが力をコントロールできるようになるまで城の門を閉ざし、すべての人々から魔力を隠すことを決意する。その日からエルサはアナと一緒に遊ばなくなった。年を経てどんどん強くなる魔力と孤独に、追い詰められていくエルサ。そんなある日、王と王妃は帰らぬ人となる。</p>
+                        </span>
+                    </div>
+                    <div class="button-container">
+                        <button class="button" id="btnReadMore" onclick="readMore()">もっと読む</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="character_section" class="character__section">
+                <h2 class="title-style--1">キャラクター紹介</h2>
+                <p class="title-style--2">CHARACTER</p>
             </section>
 
         </main>
@@ -104,6 +131,8 @@
                 <p class="copyright">Copyright &copy; SHIKI THEATER COMPANY.</p>
             </div>
         </footer>
+
+    <script src="/frozen/js/script.js"></script>
     </div>
 </body>
 </html>
