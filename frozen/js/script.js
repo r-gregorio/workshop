@@ -35,7 +35,7 @@ function readMore2() {
 function readMore3() {
   var dots3 = document.getElementById("dots_3");
   var moreText3 = document.getElementById("more_3");
-  var btnReadMore2 = document.getElementById("btnReadMore2");
+  var btnReadMore2 = document.getElementById("btnReadMore3");
 
   if (dots3.style.display === "none") {
     dots3.style.display = "inline";
