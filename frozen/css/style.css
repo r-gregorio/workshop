@@ -128,13 +128,30 @@ img {
 }
 
 .button {
-	background-color: #333;
 	font-size: 15px;
 	font-weight: bold;
 	color: #fff;
+	background-color: #009bd5;
 	width: 384px;
 	border: 0;
 	padding: 11px 12px;
+	border: 1px double #96e3ff;
+	border-radius: 12px;
+	position: relative;
+}
+
+.button span {
+	color: #fff;
+}
+
+.button span:before {
+	font-size: 25px;
+	content: '\2295';
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 35px;
+	width: 165px;
 }
 
 .button--more {
@@ -150,13 +167,24 @@ img {
 
 .box__container {
     font-size: 18px;
-    background: #ccc;
-	font-weight: bold;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 50px;
-	line-height: 1;
-    position: relative; 
+	font-weight: normal;
+    background: #fff;
+	margin-bottom: 10px;
+	line-height: 1.5;
+	text-align: justify;
+	border-radius: 10px;
+	padding: 15px;
+	opacity: .8;
+}
+
+.box__container p {
+	color: #000;
+	margin-bottom: 0;
+}
+
+.box__container a {
+	color: #0074c5;
+	text-decoration: none;
 }
 
 .octagon__box {
@@ -166,6 +194,7 @@ img {
 	position: relative;
 	padding: 15px 25px;
 }
+
 .octagon__box:before {
 	content: "";
 	width: 700px;
@@ -177,6 +206,7 @@ img {
 	border-left: 29px solid #001f4f;
 	border-right: 29px solid #001f4f;
 }
+
 .octagon__box:after {
 	content: "";
 	width: 700px;
@@ -377,7 +407,6 @@ td {
     background: url('/frozen/images/img_keyvisual_bg.png') top no-repeat;
     text-align: center;
 	margin: 0 auto;
-	max-width: auto;
 	background-size: cover;
 	padding: 20px 10px 0px;
 }
@@ -452,7 +481,6 @@ td {
     background: url('/frozen/images/img_background_2.png') top no-repeat;
     text-align: center;
 	margin: 0 auto;
-	max-width: auto;
 	background-size: cover;
 	padding: 50px 40px 60px;
 }
@@ -470,7 +498,6 @@ td {
     background: url('/frozen/images/img_background_3.png') top no-repeat;
     text-align: center;
 	margin: 0 auto;
-	max-width: auto;
 	background-size: cover;
 	padding: 50px 40px 60px;
 }
@@ -488,7 +515,6 @@ td {
     background: url('/frozen/images/img_background_4.png') top no-repeat;
     text-align: center;
 	margin: 0 auto;
-	max-width: auto;
 	background-size: cover;
 	padding: 50px 40px 60px;
 }
@@ -506,7 +532,6 @@ td {
     background: url('/frozen/images/img_background_5.png') top no-repeat;
     text-align: center;
 	margin: 0 auto;
-	max-width: auto;
 	background-size: cover;
 	padding: 50px 40px 60px;
 }
@@ -531,6 +556,88 @@ td {
 		padding: 30px 0 30px;
 	}
 }
+
+/* AUDITION SECTION
+-------------------------------------------------- */
+
+.audition__section {
+	background: url('/frozen/images/img_background_5.png') top no-repeat;
+    text-align: center;
+	margin: 0 auto;
+	background-size: cover;
+	padding: 50px 40px 60px;
+	opacity: .8;
+}
+
+@media screen and (max-width: 760px) {
+	.partnership__section {
+		padding: 30px 0 30px;
+	}
+}
+
+/* NEWS SECTION
+-------------------------------------------------- */
+
+.news__section {
+	background: url('/frozen/images/img_background_5.png') top no-repeat;
+    text-align: center;
+	margin: 0 auto;
+	background-size: cover;
+	padding: 50px 40px 60px;
+}
+
+.news__section h2 {
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+	.news__section {
+		padding: 30px 0 30px;
+	}
+}
+
+
+/* SNS SECTION
+-------------------------------------------------- */
+
+.sns__section {
+	background: #3cd0f0;
+    text-align: center;
+	margin: 0 auto;
+	background-size: cover;
+	padding: 30px 40px 10px;
+}
+
+@media screen and (max-width: 760px) {
+	.sns__section {
+		padding: 30px 0 30px;
+	}
+}
+
+
+/* INFO SECTION
+-------------------------------------------------- */
+
+.info__section {
+	background: #fff;
+    text-align: center;
+	margin: 0 auto;
+	background-size: cover;
+	padding: 50px 40px 60px;
+}
+
+@media screen and (max-width: 760px) {
+	.info__section {
+		padding: 30px 0 30px;
+	}
+}
+
+
+
 
 
 /* Footer
