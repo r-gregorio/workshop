@@ -64,9 +64,12 @@ img {
 	padding: 15px 50px;
 }
 
+.content img {
+	text-align: center;
+}
+
 @media screen and (max-width: 768px) {
 	.content {
-		text-align: justify;
 		padding: 20px 20px;
 	}
 }
