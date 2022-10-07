@@ -319,11 +319,12 @@ display: none;
 }
 
 .octagon__box {
-	width: 757px;
-	height: auto;
+	width: 758px;
+	height: 350px;
 	background: #ccc;
 	position: relative;
 	padding: 15px 25px;
+    margin-bottom: 50px;
 }
 
 .octagon__box:before {
@@ -353,13 +354,9 @@ display: none;
 /* Mobile */
 @media screen and (max-width: 767px) {
 	.octagon__box {
-		width: 100%;
-		height: auto;
-		background: #ccc;
-		position: relative;
 		padding: 15px 25px;
 	}
-	.octagon__box:before {
+.octagon__box:before {
 		content: "";
 		width: 292px;
 		height: 0;
